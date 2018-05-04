@@ -1,6 +1,6 @@
 <?php
 
-function spiprose($texte)
+function spiprose_pre_typo($texte)
 {
     return preg_replace(
         ',spip([^\w]?),i',

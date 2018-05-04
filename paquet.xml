@@ -1,10 +1,10 @@
-<paquet>
-    <prefix>spiprose</prefix>
-    <version>0.1.0</version>
-    <etat>stable</etat>
-    <pipeline>
-        <nom>pre_typo</nom>
-        <action>spiprose</action>
-        <inclure>spiprose_fonctions.php</inclure>
-    </pipeline>
+<paquet
+    prefix="spiprose"
+    categorie="edition"
+    version="0.1.0"
+    compatibilite="[3.3.0-dev;3.3.*]"
+    etat="stable"
+>
+    <nom>SPIP Rose</nom>
+    <pipeline nom="pre_typo" inclure="spiprose_fonctions.php" />
 </paquet>
