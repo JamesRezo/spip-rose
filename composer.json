@@ -1,0 +1,13 @@
+{
+    "name": "jamesrezo/spip-rose",
+    "description": "afficher le mot SPIP en rose",
+    "type": "spip-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JamesRezo",
+            "email": "james@rezo.net"
+        }
+    ],
+    "require": {}
+}
